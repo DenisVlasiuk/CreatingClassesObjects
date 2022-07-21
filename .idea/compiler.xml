@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="creating classes and objects" />
+        <module name="Classes and Objects" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="creating classes and objects" options="--add-exports java.base/jdk.internal.icu.text=ALL-UNNAMED" />
+      <module name="Classes and Objects" options="--add-exports java.base/jdk.internal.icu.text=ALL-UNNAMED" />
     </option>
   </component>
 </project>
