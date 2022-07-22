@@ -2,13 +2,17 @@ public class Main {
 
     public static void main(String[] args) {
 // ООП: Создание классов и объектов
-        Transport bmw = new Transport(250.5f, 2500, "White", new byte[] {48 , 72, 60}, 18);
-        bmw.setValues(258, 1500, "red", new byte[] {0, 21}, 21);
-        System.out.println(bmw.getValues());
+        Car bmw = new Car(250.5f, 2500, "White", new byte[] {48 , 72, 60}, 18);
+
 
         // 2 - вариант без использывания метода
 
-        Transport truck = new Transport(2500, "Yellow");
+        Truck truck = new Truck(250, "Red", true);
+
+        truck.setLoaded(false);
+        truck.getLoaded();
+
+
 //        truck.speed = 180.4f;
 //        truck.weight = 5600;
 //        truck.color = "Yellow";

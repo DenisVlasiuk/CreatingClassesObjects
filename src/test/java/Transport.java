@@ -4,7 +4,7 @@ public class Transport {
     public int weight;
     public String color;
     public byte[] coordinate;
-    public int  wheelSize;
+    private int  wheelSize;
 
     public Transport(float speed2, int weight2, String color2, byte[] coordinate2, int wheelSize2){
         System.out.println("Den4ik");
@@ -29,7 +29,7 @@ public class Transport {
     }
     // getValues - Получить значения!
     public String getValues() {
-        String info = "Object speed: " + this.speed + ". Weight: " + this.weight + ". Color: " + this.color +
+        String info = "Object speed: " + speed + ". Weight: " + weight + ". Color: " + color +
                 ". WheelSize: " + wheelSize + ".\n";
         String infoCoordinates  = "Coordinates\n";
 
